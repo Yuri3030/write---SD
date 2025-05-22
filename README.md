@@ -8,3 +8,11 @@ conversando sobre computação em nuvem.  existe uma definição .
  PaaS :  gerenciador de banco de dados, serviço de armazenamento de imagens, videos, objetos. ex S3 da aws
 
  SaaS : serviços, ferramentas, para fazar o deploy. aplicações ja ditas. ex :  claod9. é algo ja pronto. 
+
+
+ definições de nuvem privada, publica( n necessariamente gratuita), hibrida(publico + privado), comunitaria. 
+
+ tolerancia a falhas
+ desempenho 
+ segurança
+ 
