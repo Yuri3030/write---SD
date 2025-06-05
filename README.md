@@ -35,3 +35,16 @@ Tamanho:	2048
 Impressões digitais
 SHA1:	04 79 58 A5 E0 4A B5 9D 81 EC D1 4F 42 95 18 D0 0A 0B 49 9C
 SHA256:	A2 69 95 15 4E 07 87 3F 6D 54 A9 82 A3 45 EC 46 15 F3 71 F4 99 21 AA D2 A9 C3 A4 B6 CA 91 21 8B
+
+SOCKERT TPC
+Componentes de um socket TCP:
+IP de origem – Endereço do computador que envia os dados.
+
+Porta de origem – Identifica o programa que está enviando os dados.
+
+IP de destino – Endereço do computador que recebe os dados.
+
+Porta de destino – Identifica o programa que deve receber os dados.
+
+p1 emissor { socket, bind , connect( ele é bloqueante, fica esperando o outro lado atender), send( envia ), receive(recebe))
+p2 receptor  { socket, bind, listen(é tipo uma lista de tentativas de conexoes), accept( aceita a conexao), receive(recebe),send( envia ))
